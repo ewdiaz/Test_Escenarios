@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="294746fe4073bb26da158de87202a769e5192a1ac6bbc8ead7750da487f605c2.html">Regiter Practice</a></span>
+                > <span class="truncate-60"><a
+                    href="59822155e56e9aac9419b3c326db1b6c164d0e79cce5a58899794396c75c43f7.html">fill each field of register with Faker data </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-07-2021 19:13</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Regiter Practice </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="dd3abe00df1b323fed346c59f4e7f166337afc4ca40a2f722222bb5d17c36592.html">Fakersmoketest
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">fill each field of register with Faker data
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="955b88a732faa9a280031f9422e1d4b24bf6704370bc693f9d30eb65a6b9d06e.png" title=" Given that a web user to register in toolsqa" width="1366"/>
+                <img src="955b88a732faa9a280031f9422e1d4b24bf6704370bc693f9d30eb65a6b9d06e.png" title=" Eduard opens the https://www.demoqa.com/automation-practice-form" width="1366"/>
+                <img src="3a5efaea7b20b576df062e864050f2bfd480c3acfe961e8e7c6d36d7c02e677f.png" title=" Given that a web user to register in toolsqa (completed)" width="1366"/>
+                <img src="ca76983befabb8285c044f57fbc382cf4263c67e18c70724476ead015f30f87d.png" title=" When he fills all the requested fields in the form register with faker" width="1366"/>
+                <img src="1a24daaa7e6f54c60e8d6d6665ee11fc0a9f4984810b7538158bd41a2f8451b4.png" title=" Eduard fill form faker" width="1366"/>
+                <img src="1a24daaa7e6f54c60e8d6d6665ee11fc0a9f4984810b7538158bd41a2f8451b4.png" title=" Eduard enters 'Roberto' into " width="1366"/>
+                <img src="fcd4b484aa4967d4027f35a737b4644a0a92b8101b712193ba132a591aa379e0.png" title=" Eduard enters 'Roberto' into  (completed)" width="1366"/>
+                <img src="d0b233afccf96eaf03c0fada85da4667ff1f7550fe79a9dbfd39cab401ec2623.png" title=" Eduard enters 'Bauch' into " width="1366"/>
+                <img src="e713f7b86c968ddfd6ee16fa02f9e78072f84b81a2c4c29e0e072e7f96ba00d0.png" title=" Eduard enters 'Bauch' into  (completed)" width="1366"/>
+                <img src="e713f7b86c968ddfd6ee16fa02f9e78072f84b81a2c4c29e0e072e7f96ba00d0.png" title=" Eduard enters 'kerstin.stehr@gmail.com' into " width="1366"/>
+                <img src="f4ec0d52071da6a586c4d87a03db30d14084842e2ef8c09e5954b28566bcb194.png" title=" Eduard enters 'kerstin.stehr@gmail.com' into  (completed)" width="1366"/>
+                <img src="f4ec0d52071da6a586c4d87a03db30d14084842e2ef8c09e5954b28566bcb194.png" title=" Eduard clicks on " width="1366"/>
+                <img src="2ea21cace3f34586100c5aedeaf943dd3f8c1956c9b1f3296a4a90d70097c22e.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="2ea21cace3f34586100c5aedeaf943dd3f8c1956c9b1f3296a4a90d70097c22e.png" title=" Eduard enters '1119552668' into " width="1366"/>
+                <img src="b9daa582c8f7edd43721cef722c7253c7baa42b73ddc4991d4ddfb94c96edbbb.png" title=" Eduard enters '1119552668' into  (completed)" width="1366"/>
+                <img src="b9daa582c8f7edd43721cef722c7253c7baa42b73ddc4991d4ddfb94c96edbbb.png" title=" Eduard clicks on " width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on " width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on " width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on " width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on " width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="0f76150fe5681f2a62ef5c5657f0e0d846c2b8953af56602f84b39c70ccc8a39.png" title=" Eduard clicks on " width="1366"/>
+                <img src="b6fc644eca877db6feae23afea7b8adbb2b566141ef6316e669a7c6ecce74c9a.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="b6fc644eca877db6feae23afea7b8adbb2b566141ef6316e669a7c6ecce74c9a.png" title=" Eduard enters 'Arts' into " width="1366"/>
+                <img src="c766cc1b6e22ccd0f0ac438625a22abf3cb64262b0289b804c07d73cf515a163.png" title=" Eduard enters 'Arts' into  (completed)" width="1366"/>
+                <img src="c766cc1b6e22ccd0f0ac438625a22abf3cb64262b0289b804c07d73cf515a163.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="dfb2a06a832c217bdb076ac8dd5af76a858a7ea2b34ac97b62dead23491ff18a.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="d0b4c493255a67819ea70f8b99717e861ebc78a973ba83edebad5016a46e4da8.png" title=" Eduard clicks on " width="1366"/>
+                <img src="189c807b196b94348830bf0597c9e457e51edb702691224fda60c677455cbbdb.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="c5c587d671fbc2f64abba53fcd14282693ee5d9979c9705bbc744825b903f47f.png" title=" Eduard enters 'C:\1354565908787.jpg' into " width="1366"/>
+                <img src="f425daad60d599030ed3ed0954451d10020972478797d4f908a0927e3e87f4fc.png" title=" Eduard enters 'C:\1354565908787.jpg' into  (completed)" width="1366"/>
+                <img src="f425daad60d599030ed3ed0954451d10020972478797d4f908a0927e3e87f4fc.png" title=" Eduard enters '47742 Rolfson Cape' into " width="1366"/>
+                <img src="b5fe63f97f3a2facdffc9f1d76064a33a5ae93601d8c62691e17cc341b6da231.png" title=" Eduard enters '47742 Rolfson Cape' into  (completed)" width="1366"/>
+                <img src="b5fe63f97f3a2facdffc9f1d76064a33a5ae93601d8c62691e17cc341b6da231.png" title=" Eduard clicks on " width="1366"/>
+                <img src="e61e2597e653867a316d7d5e67613298bd97ebc0de438cf664ae8350eda18988.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="e61e2597e653867a316d7d5e67613298bd97ebc0de438cf664ae8350eda18988.png" title=" Eduard enters 'NCR' into " width="1366"/>
+                <img src="f04830855de91050e064ac15eaf3f7f598a55b431e6c7275e8154411a905f561.png" title=" Eduard enters 'NCR' into  (completed)" width="1366"/>
+                <img src="f04830855de91050e064ac15eaf3f7f598a55b431e6c7275e8154411a905f561.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="3a2665f9041ba7c447b684ece48cd80e892cc206e4107d5507e628d748adaf68.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="3a2665f9041ba7c447b684ece48cd80e892cc206e4107d5507e628d748adaf68.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3a2665f9041ba7c447b684ece48cd80e892cc206e4107d5507e628d748adaf68.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3a2665f9041ba7c447b684ece48cd80e892cc206e4107d5507e628d748adaf68.png" title=" Eduard enters 'Noida' into " width="1366"/>
+                <img src="b83dd2d2d199c193062a51b4d4d02a59c75efb1842a0889a2b68a96d24272672.png" title=" Eduard enters 'Noida' into  (completed)" width="1366"/>
+                <img src="b83dd2d2d199c193062a51b4d4d02a59c75efb1842a0889a2b68a96d24272672.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="39847caee7e84efed9954230b7a9916ddbe8d5013941a1cdedbccd6ce2ae2045.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="39847caee7e84efed9954230b7a9916ddbe8d5013941a1cdedbccd6ce2ae2045.png" title=" Eduard clicks on " width="1366"/>
+                <img src="b453a293d51b31e7c576e5d3360ba8809e6b2189cf0144dc0bd792764867591a.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="b453a293d51b31e7c576e5d3360ba8809e6b2189cf0144dc0bd792764867591a.png" title=" Eduard fill form faker (completed)" width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" When he fills all the requested fields in the form register with faker (completed)" width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" Then he should see it a message using faker." width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" Eduard validation" width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" Then get register question should be equalToIgnoringCase('Thanks for submitting the form')" width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" Eduard validation (completed)" width="1366"/>
+                <img src="b767da62aec58bc15bcc2e9796c1d7397841e70cb549a73a7bb615455a273e21.png" title=" Then he should see it a message using faker. (completed)" width="1366"/>
+                <img src="7805c0858636da3ee80b0c80b14b9237899089689fb7a8bf8856e6f6812aee38.png" title=" Given that a web user to register in toolsqa" width="1366"/>
+                <img src="7805c0858636da3ee80b0c80b14b9237899089689fb7a8bf8856e6f6812aee38.png" title=" Eduard opens the https://www.demoqa.com/automation-practice-form" width="1366"/>
+                <img src="57c0609007f9168108c182edb69bf18db2eddacc37c77bb8f8fb8450a4fb2efd.png" title=" Given that a web user to register in toolsqa (completed)" width="1366"/>
+                <img src="a0b26e6718a93e19d1f20d607fd8a1d9fd2a01d3397777ad5f7c5e1b717eeaee.png" title=" When he fills all the requested fields in the form register with excel" width="1366"/>
+                <img src="a0b26e6718a93e19d1f20d607fd8a1d9fd2a01d3397777ad5f7c5e1b717eeaee.png" title=" Eduard fill form excel" width="1366"/>
+                <img src="a0b26e6718a93e19d1f20d607fd8a1d9fd2a01d3397777ad5f7c5e1b717eeaee.png" title=" Eduard enters 'Peter' into " width="1366"/>
+                <img src="979e17e02035d5b645690bfab887cd79f268197e2e8a97cb3f2f813a3389aca1.png" title=" Eduard enters 'Peter' into  (completed)" width="1366"/>
+                <img src="979e17e02035d5b645690bfab887cd79f268197e2e8a97cb3f2f813a3389aca1.png" title=" Eduard enters 'Greefin' into " width="1366"/>
+                <img src="ef036bfb560e164a2a40edf8fd3e65e0ed63e754582181673472f91baa17f361.png" title=" Eduard enters 'Greefin' into  (completed)" width="1366"/>
+                <img src="ef036bfb560e164a2a40edf8fd3e65e0ed63e754582181673472f91baa17f361.png" title=" Eduard enters 'pgreefin@mail.com' into " width="1366"/>
+                <img src="eb9910a30bbc2e26b236c57838c87f76cb1bb08691b6d85f7883af2263a31580.png" title=" Eduard enters 'pgreefin@mail.com' into  (completed)" width="1366"/>
+                <img src="eb9910a30bbc2e26b236c57838c87f76cb1bb08691b6d85f7883af2263a31580.png" title=" Eduard clicks on " width="1366"/>
+                <img src="1a80162648db20ef67b1cdf0a6bde5855fae311f915c79391f0a0e64afc7ca12.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="1a80162648db20ef67b1cdf0a6bde5855fae311f915c79391f0a0e64afc7ca12.png" title=" Eduard enters '3125872779' into " width="1366"/>
+                <img src="eb8817ba23f748e5bdf737baeb73642e8095a70e33455f6f7f92b3b5c5cd8619.png" title=" Eduard enters '3125872779' into  (completed)" width="1366"/>
+                <img src="eb8817ba23f748e5bdf737baeb73642e8095a70e33455f6f7f92b3b5c5cd8619.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d22fa23df60586d57956569d81d0cd9c32ac141a9c3c802518e2e134a1e242f0.png" title=" Eduard clicks on " width="1366"/>
+                <img src="ce605b84a755fbad51c52ec20f234cfe8ddf5a3bcf936ffeac967c2bc9cfee8d.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="ce605b84a755fbad51c52ec20f234cfe8ddf5a3bcf936ffeac967c2bc9cfee8d.png" title=" Eduard enters 'Commerce' into " width="1366"/>
+                <img src="3eb62cf521eed1883cf075c19cfa8d71e8191d341c2f008bd65a545b4ff3e05d.png" title=" Eduard enters 'Commerce' into  (completed)" width="1366"/>
+                <img src="3eb62cf521eed1883cf075c19cfa8d71e8191d341c2f008bd65a545b4ff3e05d.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="c62e5caf4b80fed160ae7a49fec52a8ebfcc4a2342887fb3fccdb2674608be75.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="c62e5caf4b80fed160ae7a49fec52a8ebfcc4a2342887fb3fccdb2674608be75.png" title=" Eduard clicks on " width="1366"/>
+                <img src="2553d4361fc0d1e7f0b69d4f749db0ec78cd46765ed6b54c1b35b6e41cd03d7b.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="2553d4361fc0d1e7f0b69d4f749db0ec78cd46765ed6b54c1b35b6e41cd03d7b.png" title=" Eduard enters 'C:\\1354565908787.jpg' into " width="1366"/>
+                <img src="1a8eac4d1b4165c740730be5d0a5b996970ec4caa659d1cbc0ea57a3bce11c3a.png" title=" Eduard enters 'C:\\1354565908787.jpg' into  (completed)" width="1366"/>
+                <img src="1a8eac4d1b4165c740730be5d0a5b996970ec4caa659d1cbc0ea57a3bce11c3a.png" title=" Eduard enters 'Evergreen 4-21' into " width="1366"/>
+                <img src="e11f1c1efeb13365a8cb7e6972a1192a8f28c157c5e692f22cc63784ce284446.png" title=" Eduard enters 'Evergreen 4-21' into  (completed)" width="1366"/>
+                <img src="e11f1c1efeb13365a8cb7e6972a1192a8f28c157c5e692f22cc63784ce284446.png" title=" Eduard clicks on " width="1366"/>
+                <img src="e11f1c1efeb13365a8cb7e6972a1192a8f28c157c5e692f22cc63784ce284446.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="e11f1c1efeb13365a8cb7e6972a1192a8f28c157c5e692f22cc63784ce284446.png" title=" Eduard enters 'NCR' into " width="1366"/>
+                <img src="41cb20923349135c1d5de6be7bca126f03feef4431dae0ffb1f21934a96791de.png" title=" Eduard enters 'NCR' into  (completed)" width="1366"/>
+                <img src="41cb20923349135c1d5de6be7bca126f03feef4431dae0ffb1f21934a96791de.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="d608b377a2841d90f6ebb6c90948ed61d0560c58212d3dd0e27884dcf90b9f99.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="d608b377a2841d90f6ebb6c90948ed61d0560c58212d3dd0e27884dcf90b9f99.png" title=" Eduard clicks on " width="1366"/>
+                <img src="caf104007c1ac886906f47f2442896a0e44028f2924c9953e70dac7ef50d7d98.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="caf104007c1ac886906f47f2442896a0e44028f2924c9953e70dac7ef50d7d98.png" title=" Eduard enters 'Delhi' into " width="1366"/>
+                <img src="1690181ab12512c2c6be9e2c6e1b2bf16d3d357fb43a3dbd4466a4e7d1ae7734.png" title=" Eduard enters 'Delhi' into  (completed)" width="1366"/>
+                <img src="1690181ab12512c2c6be9e2c6e1b2bf16d3d357fb43a3dbd4466a4e7d1ae7734.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="55202a1dcba71774a1b3250aac9546d2195d887a88ace118ad6d7aef7a59be3f.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="55202a1dcba71774a1b3250aac9546d2195d887a88ace118ad6d7aef7a59be3f.png" title=" Eduard clicks on " width="1366"/>
+                <img src="4639aa58fff795cf1e05747bce3b35ed9022585bca161f897410681f5535948d.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="4639aa58fff795cf1e05747bce3b35ed9022585bca161f897410681f5535948d.png" title=" Eduard fill form excel (completed)" width="1366"/>
+                <img src="43dfb77cb1f35d65350345aab30b83cc80e9474f15bf63eb06c893124c623f98.png" title=" When he fills all the requested fields in the form register with excel (completed)" width="1366"/>
+                <img src="e03943271099d5c617f60b359951d7dd2e8b114572f427ac7d0f4743040fe84e.png" title=" Then he should see it a message using excel." width="1366"/>
+                <img src="e03943271099d5c617f60b359951d7dd2e8b114572f427ac7d0f4743040fe84e.png" title=" Eduard validation" width="1366"/>
+                <img src="e03943271099d5c617f60b359951d7dd2e8b114572f427ac7d0f4743040fe84e.png" title=" Then get register question should be equalToIgnoringCase('Thanks for submitting the form')" width="1366"/>
+                <img src="43dfb77cb1f35d65350345aab30b83cc80e9474f15bf63eb06c893124c623f98.png" title=" Then get register question should be equalToIgnoringCase('Thanks for submitting the form') (completed)" width="1366"/>
+                <img src="43dfb77cb1f35d65350345aab30b83cc80e9474f15bf63eb06c893124c623f98.png" title=" Eduard validation (completed)" width="1366"/>
+                <img src="43dfb77cb1f35d65350345aab30b83cc80e9474f15bf63eb06c893124c623f98.png" title=" Then he should see it a message using excel. (completed)" width="1366"/>
+                <img src="1074087e9f768b34815d0f58783abfeecbb4926e7bb365182b988204ce9c932e.png" title=" Given that a web user to register in toolsqa" width="1366"/>
+                <img src="1074087e9f768b34815d0f58783abfeecbb4926e7bb365182b988204ce9c932e.png" title=" Eduard opens the https://www.demoqa.com/automation-practice-form" width="1366"/>
+                <img src="0494cdb007bac394224204ce3f53543f4d8015a1f886b560a2485307ea82301d.png" title=" Given that a web user to register in toolsqa (completed)" width="1366"/>
+                <img src="2c0791141e13e335ae62c92062c2e09b1ac2542849da9c9a344cc60a3646c028.png" title=" When he fills all the requested fields in the form register with properties" width="1366"/>
+                <img src="2c0791141e13e335ae62c92062c2e09b1ac2542849da9c9a344cc60a3646c028.png" title=" Eduard fill form properties" width="1366"/>
+                <img src="2c0791141e13e335ae62c92062c2e09b1ac2542849da9c9a344cc60a3646c028.png" title=" Eduard enters 'Eduard' into " width="1366"/>
+                <img src="2c0791141e13e335ae62c92062c2e09b1ac2542849da9c9a344cc60a3646c028.png" title=" Eduard enters 'Diaz' into " width="1366"/>
+                <img src="f64bca109ea46edc4f8dc404a2b83b27146fa7db7ad394accddc3f7e0b002e82.png" title=" Eduard enters 'Diaz' into  (completed)" width="1366"/>
+                <img src="f64bca109ea46edc4f8dc404a2b83b27146fa7db7ad394accddc3f7e0b002e82.png" title=" Eduard enters 'eduarddz85@gmail.com' into " width="1366"/>
+                <img src="d6cda2685f57d660549d080ee6109512edcf1bd23221fbf369fbd6e0cfb320e6.png" title=" Eduard enters 'eduarddz85@gmail.com' into  (completed)" width="1366"/>
+                <img src="d6cda2685f57d660549d080ee6109512edcf1bd23221fbf369fbd6e0cfb320e6.png" title=" Eduard clicks on " width="1366"/>
+                <img src="d5e33078f0f8673fbaf24bcdd77b86b5991b51ea7b46e244ce442d9e09ca5a51.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="d5e33078f0f8673fbaf24bcdd77b86b5991b51ea7b46e244ce442d9e09ca5a51.png" title=" Eduard enters '3125872779' into " width="1366"/>
+                <img src="d5dfd67da51526983ec26f64a442ccfe934d81cca15d48fa8d35fb6cc1105522.png" title=" Eduard enters '3125872779' into  (completed)" width="1366"/>
+                <img src="d5dfd67da51526983ec26f64a442ccfe934d81cca15d48fa8d35fb6cc1105522.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on " width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="3c8a93b2cb55716cb2df20eb59b340dc27df8b1975f37a1476c6cc770c69b111.png" title=" Eduard clicks on " width="1366"/>
+                <img src="f54c40beb5791767c8639e0b577b50acf6a1e07494b1a6ae43a65b5dfe64e423.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="f54c40beb5791767c8639e0b577b50acf6a1e07494b1a6ae43a65b5dfe64e423.png" title=" Eduard enters 'Commerce' into " width="1366"/>
+                <img src="c011142aae644472db853499904686e4fc26831a52be69cd6ea0210530082459.png" title=" Eduard enters 'Commerce' into  (completed)" width="1366"/>
+                <img src="c011142aae644472db853499904686e4fc26831a52be69cd6ea0210530082459.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="e03498cf0018ce9b81082c53f4f0bd80f6b1a32dc12468d32736dd6d83754aff.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="43165bb21dee1cfb94b46e74fd19bb95544b16b341b558f4c6ef015f3d51d943.png" title=" Eduard clicks on " width="1366"/>
+                <img src="999044a97ed65d6ff02e2c42e9439f56724bec659468ad916792469ae0aafee6.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="999044a97ed65d6ff02e2c42e9439f56724bec659468ad916792469ae0aafee6.png" title=" Eduard enters 'C:\1354565908787.jpg' into " width="1366"/>
+                <img src="c9e08395204ac33246bcb5e468bf938efba8d80ebcef8831482b11f0131af876.png" title=" Eduard enters 'C:\1354565908787.jpg' into  (completed)" width="1366"/>
+                <img src="c9e08395204ac33246bcb5e468bf938efba8d80ebcef8831482b11f0131af876.png" title=" Eduard enters 'Icononzo-Tolima' into " width="1366"/>
+                <img src="a5c7c8c6e4bccde40c12d2f50c3373f0a13439d6c5b677349d74477de3676826.png" title=" Eduard enters 'Icononzo-Tolima' into  (completed)" width="1366"/>
+                <img src="a5c7c8c6e4bccde40c12d2f50c3373f0a13439d6c5b677349d74477de3676826.png" title=" Eduard clicks on " width="1366"/>
+                <img src="e36237cfce71ac489018f0e01c222e7e38cee8f64e5ed1dfc56b085215c22de9.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="e36237cfce71ac489018f0e01c222e7e38cee8f64e5ed1dfc56b085215c22de9.png" title=" Eduard enters 'NCR' into " width="1366"/>
+                <img src="f3c5172559a8aa2c58d71284de51d89b62abd8489f6110b281247baee36a338a.png" title=" Eduard enters 'NCR' into  (completed)" width="1366"/>
+                <img src="f3c5172559a8aa2c58d71284de51d89b62abd8489f6110b281247baee36a338a.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="aa35c387df0972d0df857d9c0ab482b872bafa258d454dc9a4016f1a9fa4aa15.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="aa35c387df0972d0df857d9c0ab482b872bafa258d454dc9a4016f1a9fa4aa15.png" title=" Eduard clicks on " width="1366"/>
+                <img src="f4ed89c572f2963f7e2e28143098ed37ead5d5f58ff54b4c03829aaac0eb72d2.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="f4ed89c572f2963f7e2e28143098ed37ead5d5f58ff54b4c03829aaac0eb72d2.png" title=" Eduard enters 'Noida' into " width="1366"/>
+                <img src="76e726b8faa086b50a7de849db7ea835082ae9ba90cfde83f53b99731c733a36.png" title=" Eduard enters 'Noida' into  (completed)" width="1366"/>
+                <img src="76e726b8faa086b50a7de849db7ea835082ae9ba90cfde83f53b99731c733a36.png" title=" Eduard enters ENTER into " width="1366"/>
+                <img src="780193dc0d785c6fdf03d5bf75f12623130a9fb79f2c9f5d51fff0e4f5992930.png" title=" Eduard enters ENTER into  (completed)" width="1366"/>
+                <img src="780193dc0d785c6fdf03d5bf75f12623130a9fb79f2c9f5d51fff0e4f5992930.png" title=" Eduard clicks on " width="1366"/>
+                <img src="e8e5f366f3537f5e02159521f4e6d7147fc3cf877c3146a043704351014bb9b9.png" title=" Eduard clicks on  (completed)" width="1366"/>
+                <img src="e8e5f366f3537f5e02159521f4e6d7147fc3cf877c3146a043704351014bb9b9.png" title=" Eduard fill form properties (completed)" width="1366"/>
+                <img src="70e5dba694d70382679ff4eff44f687ab022b2ed2ad948664a1e72e56d37f6c7.png" title=" When he fills all the requested fields in the form register with properties (completed)" width="1366"/>
+                <img src="1bb5fcea1cbb80405e029424b776687b1521a99ac296e0ee377a379e3442e976.png" title=" Then he should see it a message using properties." width="1366"/>
+                <img src="1bb5fcea1cbb80405e029424b776687b1521a99ac296e0ee377a379e3442e976.png" title=" Eduard validation" width="1366"/>
+                <img src="1bb5fcea1cbb80405e029424b776687b1521a99ac296e0ee377a379e3442e976.png" title=" Then get register question should be equalToIgnoringCase('Thanks for submitting the form')" width="1366"/>
+                <img src="70e5dba694d70382679ff4eff44f687ab022b2ed2ad948664a1e72e56d37f6c7.png" title=" Then get register question should be equalToIgnoringCase('Thanks for submitting the form') (completed)" width="1366"/>
+                <img src="70e5dba694d70382679ff4eff44f687ab022b2ed2ad948664a1e72e56d37f6c7.png" title=" Eduard validation (completed)" width="1366"/>
+                <img src="70e5dba694d70382679ff4eff44f687ab022b2ed2ad948664a1e72e56d37f6c7.png" title=" Then he should see it a message using properties. (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.80</span>
+</div>
+</body>
+</html>

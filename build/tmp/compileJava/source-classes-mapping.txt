@@ -1,0 +1,22 @@
+com/toolsqa/automation/ui/FormPage.java
+ com.toolsqa.automation.ui.FormPage
+com/toolsqa/automation/questions/GetRegisterQuestion.java
+ com.toolsqa.automation.questions.GetRegisterQuestion
+com/toolsqa/automation/tasks/FillFormFaker.java
+ com.toolsqa.automation.tasks.FillFormFaker
+com/toolsqa/automation/utils/JavaScript.java
+ com.toolsqa.automation.utils.JavaScript
+com/toolsqa/automation/tasks/FillFormExcel.java
+ com.toolsqa.automation.tasks.FillFormExcel
+com/toolsqa/automation/tasks/Validation.java
+ com.toolsqa.automation.tasks.Validation
+com/toolsqa/automation/models/DataInjection.java
+ com.toolsqa.automation.models.DataInjection
+com/toolsqa/automation/interactions/OpenTheBrowser.java
+ com.toolsqa.automation.interactions.OpenTheBrowser
+com/toolsqa/automation/utils/Excel.java
+ com.toolsqa.automation.utils.Excel
+com/toolsqa/automation/utils/SpecialMethods.java
+ com.toolsqa.automation.utils.SpecialMethods
+com/toolsqa/automation/tasks/FillFormProperties.java
+ com.toolsqa.automation.tasks.FillFormProperties
